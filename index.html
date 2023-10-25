@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Lista de Productos</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link href="./assets/style.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Encabezado -->
+    <header class="text-center mb-3 p-3 text-bg-primary">
+        <h1 class="display-1 word-break">Lista de Productos</h1>
+        <h3 class="word-break">José Manuel Alcayaga Marín</h3>
+        <h3 class="text-truncate">20.967.432-7</h3>
+        <h4 class="word-break">Introducción al Desarrollo Web y Móvil</h4>
+        <h4 class="word-break">25 de Octubre de 2023</h4>
+    </header>
+
+    <!-- Listado, en grid para ser responsive -->
+
+    <div class="container text-center">
+        <div class="row"> <!-- Una fila porque no hay separación explicita entre componentes más allá de su orden. -->
+            <div class="col col-lg-4 col-md-6 col-12"> <!--Celular: 1 item por fila, tablets: 2 items por fila, escritorios: 3 items por fila -->
+                <div class="card m-3 card-hover"> <!-- Tarjeta de producto -->
+                    <img src="./assets/images/410152-360-360.jfif" class="card-img-top m-3 w-auto" alt="Comino Molido">
+                    <div class="card-body">
+                        <h5 class="card-title">Comino Molido</h5>
+                        <p class="card-text">Comino molido de la marca Cousine & Co. El mejor comino extraido de la Índia, por campesinos artesanales y molido a mano siguiendo los más altos estándares de calidad. Dele más sabor y profundidad a sus comidas.</p>
+                        <p class="card-text">Precio: $1200</p>
+                        <a href="#" class="btn btn-primary">Ver detalles</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col col-lg-4 col-md-6 col-12"> <!--Celular: 1 item por fila, tablets: 2 items por fila, escritorios: 3 items por fila -->
+                <div class="card m-3"> <!-- Tarjeta de producto, con margenes para separar -->
+                    <img src="./assets/images/SURT-MARIS-CCO.jpg" class="card-img-top m-3 w-auto" alt="Surtido De Mariscos"> <!-- Imagen de producto, con margenes para separar, en la parte superior de la tarjeta, y con ancho automático para no se más grande que la tarjeta -->
+                    <div class="card-body"> <!-- Contenido de tarjeta, con información del producto y botón de Ver detalles -->
+                        <h5 class="card-title">Surtido De Mariscos</h5>
+                        <p class="card-text">Comino molido de la marca Cousine & Co. El mejor comino extraido de la Índia, por campesinos artesanales y molido a mano siguiendo los más altos estándares de calidad. Dele más sabor y profundidad a sus comidas.</p>
+                        <p class="card-text">Precio: $1200</p>
+                        <a href="#" class="btn btn-primary">Ver detalles</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col col-lg-4 col-md-6 col-12">
+                <div class="card  m-3"> <!-- Tarjeta de producto -->
+                    <img src="./assets/images/Castaña-de-caju-100-g.jpg" class="card-img-top m-3 w-auto" alt="Comino Molido">
+                    <div class="card-body">
+                        <h5 class="card-title">Castañas de caju</h5>
+                        <p class="card-text">Comino molido de la marca Cousine & Co. El mejor comino extraido de la Índia, por campesinos artesanales y molido a mano siguiendo los más altos estándares de calidad. Dele más sabor y profundidad a sus comidas.</p>
+                        <p class="card-text">Precio: $4200</p>
+                        <a href="#" class="btn btn-primary">Ver detalles</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col col-lg-4 col-md-6 col-12">
+                <div class="card m-3"> <!-- Tarjeta de producto -->
+                    <img src="./assets/images/Ciboulette-en-sobre-2-g-1-160576820.jpg" class="card-img-top m-3 w-auto" alt="Ciboulette Molido">
+                    <div class="card-body">
+                        <h5 class="card-title">Ciboulette Molido</h5>
+                        <p class="card-text">Comino molido de la marca Cousine & Co. El mejor comino extraido de la Índia, por campesinos artesanales y molido a mano siguiendo los más altos estándares de calidad. Dele más sabor y profundidad a sus comidas.</p>
+                        <p class="card-text">Precio: $1200</p>
+                        <a href="#" class="btn btn-primary">Ver detalles</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col col-lg-4 col-md-6 col-12">
+                <div class="card m-3"> <!-- Tarjeta de producto -->
+                    <img src="./assets/images/Endulzante-sachet-stevia-100-un-1-159597551.jpg" class="card-img-top m-3 w-auto" alt="Stevia En Polvo">
+                    <div class="card-body">
+                        <h5 class="card-title">Stevia En Polvo</h5>
+                        <p class="card-text">Comino molido de la marca Cousine & Co. El mejor comino extraido de la Índia, por campesinos artesanales y molido a mano siguiendo los más altos estándares de calidad. Dele más sabor y profundidad a sus comidas.</p>
+                        <p class="card-text">Precio: $1200</p>
+                        <a href="#" class="btn btn-primary">Ver detalles</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col col-lg-4 col-md-6 col-12">
+                <div class="card m-3"> <!-- Tarjeta de producto -->
+                    <img src="./assets/images/Mix-italiano-Jumbo-pote-150-g-1-57509692.jpg" class="card-img-top m-3 w-auto" alt="Mix Italiano">
+                    <div class="card-body">
+                        <h5 class="card-title">Mix Italiano</h5>
+                        <p class="card-text">Comino molido de la marca Cousine & Co. El mejor comino extraido de la Índia, por campesinos artesanales y molido a mano siguiendo los más altos estándares de calidad. Dele más sabor y profundidad a sus comidas.</p>
+                        <p class="card-text">Precio: $1200</p>
+                        <a href="#" class="btn btn-primary">Ver detalles</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col col-lg-4 col-md-6 col-12">
+                <div class="card m-3"> <!-- Tarjeta de producto -->
+                    <img src="./assets/images/Papa-malla-2-kg.jpg" class="card-img-top m-3 w-auto" alt="Papa Malla">
+                    <div class="card-body">
+                        <h5 class="card-title">Papa Malla</h5>
+                        <p class="card-text">Comino molido de la marca Cousine & Co. El mejor comino extraido de la Índia, por campesinos artesanales y molido a mano siguiendo los más altos estándares de calidad. Dele más sabor y profundidad a sus comidas.</p>
+                        <p class="card-text">Precio: $1200</p>
+                        <a href="#" class="btn btn-primary">Ver detalles</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col col-lg-4 col-md-6 col-12">
+                <div class="card m-3"> <!-- Tarjeta de producto -->
+                    <img src="./assets/images/Principal-1241.jpg" class="card-img-top m-3 w-auto" alt="Ñoquis Espinaca">
+                    <div class="card-body">
+                        <h5 class="card-title">Ñoquis Espinaca</h5>
+                        <p class="card-text">Comino molido de la marca Cousine & Co. El mejor comino extraido de la Índia, por campesinos artesanales y molido a mano siguiendo los más altos estándares de calidad. Dele más sabor y profundidad a sus comidas.</p>
+                        <p class="card-text">Precio: $1200</p>
+                        <a href="#" class="btn btn-primary">Ver detalles</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col col-lg-4 col-md-6 col-12">
+                <div class="card m-3"> <!-- Tarjeta de producto -->
+                    <img src="./assets/images/Salmon-ahumado-200-g-1-64896708.jpg" class="card-img-top m-3 w-auto" alt="Salmón Ahumado">
+                    <div class="card-body">
+                        <h5 class="card-title">Salmón Ahumado</h5>
+                        <p class="card-text">Comino molido de la marca Cousine & Co. El mejor comino extraido de la Índia, por campesinos artesanales y molido a mano siguiendo los más altos estándares de calidad. Dele más sabor y profundidad a sus comidas.</p>
+                        <p class="card-text">Precio: $1200</p>
+                        <a href="#" class="btn btn-primary">Ver detalles</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col col-lg-4 col-md-6 col-12">
+                <div class="card m-3"> <!-- Tarjeta de producto -->
+                    <img src="./assets/images/Principal-10011.jpg" class="card-img-top m-3 w-auto" alt="Huevo Grande">
+                    <div class="card-body">
+                        <h5 class="card-title">Huevo Grande</h5>
+                        <p class="card-text">Comino molido de la marca Cousine & Co. El mejor comino extraido de la Índia, por campesinos artesanales y molido a mano siguiendo los más altos estándares de calidad. Dele más sabor y profundidad a sus comidas.</p>
+                        <p class="card-text">Precio: $1200</p>
+                        <a href="#" class="btn btn-primary">Ver detalles</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col col-lg-4 col-md-6 col-12">
+                <div class="card m-3"> <!-- Tarjeta de producto -->
+                    <img src="./assets/images/Rolls-en-linea-90-g.jpg" class="card-img-top m-3 w-auto" alt="Rolls Crocantes">
+                    <div class="card-body">
+                        <h5 class="card-title">Rolls Crocantes</h5>
+                        <p class="card-text">Comino molido de la marca Cousine & Co. El mejor comino extraido de la Índia, por campesinos artesanales y molido a mano siguiendo los más altos estándares de calidad. Dele más sabor y profundidad a sus comidas.</p>
+                        <p class="card-text">Precio: $1200</p>
+                        <a href="#" class="btn btn-primary">Ver detalles</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
